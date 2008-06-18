@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{C3D563E1-D756-4943-A1B0-0862E5730A41}"
+	ProjectSection(SolutionItems) = preProject
+		FahSmpAffinityChanger\ChangeLog.txt = FahSmpAffinityChanger\ChangeLog.txt
+		FahSmpAffinityChanger\TODO.txt = FahSmpAffinityChanger\TODO.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FahSmpAffinityChanger", "FahSmpAffinityChanger\FahSmpAffinityChanger.csproj", "{9D28205B-3A64-4DEE-9FD7-3BA089C64100}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FahSmpAffinityChangerSetup", "FahSmpAffinityChangerSetup\FahSmpAffinityChangerSetup.vdproj", "{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FahSmpAffinityChangerSetup_x64", "FahSmpAffinityChangerSetup_x64\FahSmpAffinityChangerSetup_x64.vdproj", "{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartService", "StartService\StartService.csproj", "{880EC758-FDE5-4735-9A3E-AC8FCA512A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Description = 
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Debug|x64.ActiveCfg = Debug|x64
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Debug|x64.Build.0 = Debug|x64
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Release|x64.ActiveCfg = Release|x64
+		{9D28205B-3A64-4DEE-9FD7-3BA089C64100}.Release|x64.Build.0 = Release|x64
+		{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}.Debug|Any CPU.ActiveCfg = Debug
+		{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}.Debug|x64.ActiveCfg = Debug
+		{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}.Release|Any CPU.ActiveCfg = Release
+		{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}.Release|Any CPU.Build.0 = Release
+		{24A87306-EBFF-4EC5-B244-C7526CAE7A3A}.Release|x64.ActiveCfg = Release
+		{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}.Debug|Any CPU.ActiveCfg = Debug
+		{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}.Debug|x64.ActiveCfg = Debug
+		{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}.Release|Any CPU.ActiveCfg = Release
+		{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}.Release|x64.ActiveCfg = Release
+		{519C341F-7EAD-4CBE-904F-4F5EC6ECC9D8}.Release|x64.Build.0 = Release
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Debug|x64.ActiveCfg = Debug|x64
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Debug|x64.Build.0 = Debug|x64
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Release|x64.ActiveCfg = Release|x64
+		{880EC758-FDE5-4735-9A3E-AC8FCA512A26}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal
